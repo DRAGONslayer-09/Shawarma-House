@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawarma's House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shawarma's House</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slider">
+        <div class="slides">
+            <img src="image1.jpg" alt="Delicious Food 1">
+            <img src="https://assets.onecompiler.app/42qkqk329/42qkq3sg4/080717-Shawarma_01.jpg.jpg" alt="Shawarma">
+            <img src="image3.jpg" alt="Delicious Food 3">
+        </div>
+    </section>
+<a>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-varieties">
+            <div class="menu-item">
+                <h3>Appetizers</h3>
+                <ul>
+                    <li>French Fries</li>
+                    <li>Nachos</li>
+                    <li>Garlic Bread</li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>Main Course</h3>
+                <ul>
+                    <li>Paneer Shawarma</li>
+                    <img src="https://assets.onecompiler.app/42qkqk329/42qkq3sg4/080717-Shawarma_01.jpg.jpg" alt="Shawarma">
+                    <li>Chilly chick Shawarma</li>
+                    <li>Habibi special sauce Shawarma</li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>Desserts</h3>
+                <ul>
+                    <li>Chocolate Lava Cake</li>
+                    <li>Cheesecake</li>
+                    <li>Ice Cream Sundae</li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>Beverages</h3>
+                <ul>
+                    <li>Cold Drink</li>
+                    <li>Ice Tea</li>
+                    <li>Bubble Tea </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</a>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Shawarma House, where we bring you the best authentic experience of shawarma. Our menu is crafted with love and the finest ingredients to ensure you enjoy every bite. Whether you're craving something sweet, savory, or refreshing, we have it all.</p>
+    </section>
+
+
+    <section id="order">
+        <h2>Order Now</h2>
+        <form action="payment.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="Phone number">Phone number:</label>
+            <input type="number" id="phone number" name="Phone number" min="5999999999" required>
+
+            <label for="food">Select Your Food:</label>
+            <select id="food" name="food">
+                <option value="French-Fries">French Fries</option>
+                <option value="grilled-chicken">Grilled Chicken</option>
+                <option value="Bubble-Tea">Bubble Tea</option>
+                <option value="coffee">Coffee</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="address">Delivery Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <input type="submit" value="Proceed to Payment">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+    </footer>
+
+</body>
+</html>
